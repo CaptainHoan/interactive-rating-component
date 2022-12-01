@@ -6,6 +6,8 @@ let result = document.querySelector(".rate-result");
 let resultContainer = document.querySelector(".result_container");
 
 
+//config the rating in js file
+
 for(let i = 0; i < rateButton.length; i++) {
 
     rateButton[i].addEventListener("click", () => {
